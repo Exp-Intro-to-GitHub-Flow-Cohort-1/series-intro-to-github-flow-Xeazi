@@ -1,0 +1,36 @@
+h1 {
+    text-align: start;
+    color: red;
+}
+.lorem {
+    text-align: justify;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.navbar li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 40px;
+    border: 1px solid rgb(210, 59, 59);
+    border-radius: 1000px;
+    display: inline flex;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button-container button {
+    border: 1px solid rgb(210, 59, 59);
+    border-radius: 1000px;
+    padding: 10px;
+    margin: 1vh;
+    
+}
